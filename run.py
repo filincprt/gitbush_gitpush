@@ -10,6 +10,7 @@ def lagrange_polynomial(x, nodes):
                 term *= (x - nodes[j][0]) / (nodes[i][0] - nodes[j][0])
         result += term
     return result
+    # Комментарий, которого нет в локальной версии
 
 # Узловые точки
 nodes = [(1, -3), (2, -2), (4, 2), (7, 8)]
